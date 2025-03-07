@@ -42,6 +42,8 @@ values over each interval, derived from high-frequency (1Hz) sampling by the SCA
 - Seasonal decomposition using Fourier series
 - Detrending using LOESS
 - Decomposition using singular spectrum analysis (SSA)
+- Test performance diff between backward and forward fill
+- Replace abnormal values for features which should be bounded by their nearest bound instead of removing them
 
 #### Hyperparameter Optimization
 - Learning rate scheduling (first cycle learning rate method)
