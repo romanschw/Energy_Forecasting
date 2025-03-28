@@ -1,0 +1,13 @@
+name: Energy_Forecasting
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.8
+  - pip
+  - black
+  - flake8
+  - isort
+  - pip:
+    - python-dotenv
+    - mkdocs
+    - -e .
